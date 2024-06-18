@@ -1,0 +1,262 @@
+.navbardiv {
+    background: url("./assets/Vector.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.container-fluid {
+    background-color: #f15921;
+    position: relative;
+    top: 0;
+    max-height: 60px;
+    padding: 0;
+    height: 60px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-collapse {
+    background-color: #f15921;
+}
+
+.img-container {
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0 10px;
+}
+
+.img-container img {
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    cursor: pointer;
+}
+
+.text-container {
+    bottom: 20px;
+    left: 50%;
+    text-align: left;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 70px;
+    font-weight: lighter;
+}
+
+.container {
+    max-width: 1700px;
+}
+
+.ms-auto {
+    margin-left: 5% !important;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    color: #000;
+}
+
+.aboutTitle {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.about {
+    text-decoration: underline;
+    text-decoration-color: #f15921;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 20px;
+}
+
+.aboutusDiv {
+    margin-top: 20px;
+}
+
+.aboutTitle {
+    font-size: 50px;
+}
+
+.aboutimg1 {
+    position: relative;
+}
+
+.aboutimg2 {
+    position: relative;
+    top: -94px;
+    left: 189px;
+}
+
+.aboutTitle2 {
+    font-size: 45px;
+    text-align: left;
+    font-weight: lighter;
+    width: 100%;
+}
+
+.Excellence {
+    font-weight: bold;
+}
+
+.aboutContentTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.aboutContentTitlemini {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.aboutContenttxt {
+    font-size: 18px;
+}
+
+.imageDiv {
+    min-width: 500px;
+}
+
+.imageDiv img {
+    height: 386px;
+}
+
+.WhatTitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+.imageDiv2 {
+    min-width: 500px;
+    height: 386px;
+}
+
+.imageDiv2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.whatimgDiv {
+    background: url("./assets/image\ 68.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 366px;
+    width: 100%;
+    position: relative;
+}
+
+.bg-image {
+    background: url("./assets/Rectangle\ 1011.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    color: #fff;
+}
+
+.whyTitletxt {
+    font-size: 15px;
+}
+
+.whyContentTitlemini {
+    font-size: 18px;
+}
+
+hr.custom-thickness {
+    background-color: rgb(255 255 255);
+    margin-top: 0;
+    margin-bottom: 5px;
+    height: 3px;
+}
+
+.whyLeftDiv {
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+.whyRightDiv {
+    padding-top: 50px;
+}
+
+.whyRightDiv img {
+    max-width: 444px;
+}
+
+@media (max-width: 1285px) {
+    .col-md-6 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1203px) {
+    .imageDiv img {
+        width: 50%;
+    }
+
+    .whyRightDiv img {
+        max-width: 90%;
+    }
+
+    .imageDiv2 img {
+        margin-top: 20px;
+    }
+
+    .whatimgDiv1 {
+        margin-top: 20px;
+    }
+
+    .aboutimg2 {
+        position: relative;
+        top: -18%;
+        left: 22%;
+    }
+}
+
+@media (max-width: 724px) {
+    .whatDivContainer {
+        height: 95%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 580px) {
+    .container-fluid {
+        border-radius: 0;
+    }
+
+    .img-container,
+    .img-container img {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .imageDiv {
+        min-width: 580px;
+    }
+
+    .whyRightDiv {
+        padding: 0;
+    }
+
+    .bg-image {
+        height: 100%;
+    }
+}
